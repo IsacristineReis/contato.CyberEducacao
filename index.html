@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page - CyberEducação</title>
+    <!-- links -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- <a href="#home" class="scroll-top">
+        <i class="bx bx-up-arrow-alt"></i>
+    </a> -->
+
+    <!-- HEADER -->
+
+    <header>
+      <div class="nav container">
+        <a href="#" class="logo">CyberEducação</a>
+        <ul class="navbar">
+          <li><a href="#home" class="nav-links">Inicial</a></li>
+          <li><a href="#about" class="nav-links">Sobre</a></li>
+          <li><a href="#contact" class="nav-links">Contato</a></li>
+        </ul>
+        <div class="menu-icon">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- HOME -->
+
+    <section class="home container" id="#home">
+      <div class="home-content">
+        <div class="home-img">
+          <img src="img/logotipo.png" alt="logo" />
+        </div>
+        <div class="home-text">
+          <h3>Bem-Vindo</h3>
+          <h2>Somos a <span class="color">CyberEducação</span></h2>
+          <p>Plataforma orientadora de aprendizagem</p>
+
+          <div class="social">
+            <a
+              href="https://www.instagram.com/cyber_educacao?igsh=MTluNzgyemE3MzF6dA%3D%3D&utm_source=qr"
+              target="_blank"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="#" target="_blank"><i class="bx bxl-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+
+    <section class="service container" id="#service">
+      <div class="features">
+        <div class="row-card">
+          <div class="text-col">
+            <h2>Teve sua conta <span>Hackeada</span>?</h2>
+            <p>
+              Aprenda a recuperar sua conta e garanta sua segurança de forma
+              <span class="color">fácil e segura</span>.
+            </p>
+          </div>
+          <div class="img-col">
+            <img src="img/img1.png" alt="image" />
+          </div>
+        </div>
+
+        <div class="row-card">
+          <div class="img-col">
+            <img src="img/img3.png" alt="image" />
+          </div>
+          <div class="text-col">
+            <h2>Se adiante antes de <span>todo mundo</span>!</h2>
+            <p>
+              Fique um passo á frente das
+              <span class="color">ameaças digitais</span> com nossa educação
+              cibernética.
+            </p>
+          </div>
+        </div>
+
+        <div class="row-card">
+          <div class="text-col">
+            <h2>Sua <span>segurança online</span> começa aqui:</h2>
+            <p>
+              <span class="color">Aprenda</span> -
+              <span class="color">Pratique</span> -
+              <span class="color">Proteja</span>.
+            </p>
+          </div>
+          <div class="img-col">
+            <img src="img/img5.png" alt="image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+
+    <section class="about container" id="about">
+      <h2 class="head">Sobre</h2>
+      <div class="about-content">
+        <div class="about-data">
+          <span>Sobre Nós</span>
+          <h2>
+            Desenvolvedora Web, <br />
+            Cyber Segurança e Cyber Educação
+          </h2>
+          <a class="about-btn" href="#" target="_blank">Acessar</a>
+        </div>
+        <div class="about-text">
+          <p>
+            Somos a CyberEducação, um projeto voltado para orientação contra
+            crimes cibernéticos.
+          </p>
+          <p>
+            No ano de 2024, 8 colaboradores se juntaram para criar uma
+            plataforma que tem como objetivo distribuir conhecimento pouco
+            comentado.
+          </p>
+          <p>O projeto CyberEducação é totalmente gratuito e acessível.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- AVALIAÇÂO -->
+
+    <section class="review container" id="review">
+      <h2 class="head">Avaliação</h2>
+      <div class="review-content">
+        <div class="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="img/perfil.jpg" alt="Perfil 3" class="profile-pic">
+              <h3>Avaliação 1</h3>
+              <p>Ótimo serviço! Recomendo a todos.</p>
+            </div>
+            <div class="carousel-item">
+                <img src="img/perfil_2.jpg" alt="Perfil 3" class="profile-pic">
+              <h3>Avaliação 2</h3>
+              <p>Equipe muito atenciosa e profissional.</p>
+            </div>
+            <div class="carousel-item">
+                <img src="img/perfil_3.jpg" alt="Perfil 3" class="profile-pic">
+              <h3>Avaliação 3</h3>
+              <p>Experiência incrível, voltarei com certeza!</p>
+            </div>
+          </div>
+          <div class="carousel-controls">
+            <button id="prev">❮</button>
+            <button id="next">❯</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+
+    <section class="contact container" id="contact">
+      <h2 class="head">Contato</h2>
+      <div class="contact-content">
+        <div class="contact-btn">
+          <button
+            onclick="window.location.href='mailto:cybereducacao8@gmail.com'"
+          >
+            Enviar um e-mail
+          </button>
+          <button onclick="window.location.href='tel:+5511938013040'">
+            Ligue para nós
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <section class="footer container">
+      <footer>
+        <p>2024 | CyberEducação</p>
+      </footer>
+    </section>
+    <script src="java.js"></script>
+  </body>
+</html>
